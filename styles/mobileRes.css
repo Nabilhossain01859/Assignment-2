@@ -1,14 +1,46 @@
 /* Mobile responsive related css */
-@media  screen and (max-width: 576px){
-    .navlinks > ul {
-        display: none;
-    }  
-    .navlinks{
-        display: flex;
-        justify-content: end;
-        align-items: center;
-    }
-    .menu-icon{
-        display: block;
-    } 
+@media screen and (max-width: 576px) {
+  body {
+    width: max-content;
+    padding: 20px;
+  }
+  .navlinks > ul {
+    display: none;
+  }
+  .navlinks {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .banner-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-section-text {
+    width: min-content;
+    justify-content: center;
+    margin: 0 auto;
+    align-content: center;
+    gap: 20px;
+  }
+
+  .banner-section-text > h2 {
+    font-size: 60px;
+  }
+  .banner-section-image {
+    margin: 0px auto;
+  }
+  #shape {
+    font-size: 100px;
+  }
+  .image-one {
+    margin-left: 0px;
+  }
+  .image-cousin {
+    margin-left: 200px;
+    margin-top: -500px;
+  }
 }

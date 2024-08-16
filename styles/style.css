@@ -1,8 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grey+Qo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 .inter-interFont {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+  font-style: normal;
+}
+.grey-qo-regular {
+  font-family: "Grey Qo", cursive;
   font-style: normal;
 }
 * {
@@ -48,9 +52,119 @@ header {
 .navlinks > ul li {
   /* background-color: aquamarine; */
   list-style: none;
+  font-weight: bolder;
 }
 
-.menu-icon{
-    display: none;
-    font-size: 30px;
+.menu-icon {
+  display: none;
+  font-size: 30px;
+}
+/* Main section related styles */
+main {
+  margin-top: 100px;
+}
+/* Banner section styles */
+.banner-section {
+  display: flex;
+  justify-content: space-around;
+}
+.banner-section-text {
+  width: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#shape {
+  font-family: "Grey Qo", cursive;
+  font-size: 140px;
+}
+.banner-section-text > h2 {
+  font-weight: 900;
+  font-size: 80px;
+  line-height: normal;
+}
+.banner-section-text > h5 {
+  font-size: 18px;
+  /* color: rgba(255, 255, 255, 0.5); */
+  font-weight: 400;
+  text-align: left;
+}
+.btns {
+  display: flex;
+  gap: 50px;
+}
+.btn-1 {
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  width: 224px;
+  height: 60px;
+  color: white;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 18px;
+}
+.btn-2 {
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Inter";
+  color: white;
+  border-radius: 42px;
+  width: 224px;
+  height: 60px;
+}
+.banner-section-image{
+  position: relative;
+}
+.image{
+  /* position: absolute; */
+  z-index: 1;
+}
+.image-one {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  background-color: black;
+  width: max-content;
+  padding: 13px;
+  border-radius: 42px;
+  color: white;
+  margin-left: -90px;
+  margin-top:-150px;
+  position: absolute;
+  z-index: 2;
+}
+.image-one h4 {
+  font-weight: 800;
+  font-size: 24px;
+}
+.image-one p {
+  font-weight: 700;
+  font-size: 18px;
+
+}
+
+#redSpot {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(230, 83, 60);
+  border-radius: 50%;
+}
+.image-cousin{
+    width: max-content;
+    border-radius: 10px;
+    background-color:black ;
+    color: white;
+    padding: 10px;
+  position: absolute;
+  z-index: 2;
+  margin-left: 240px;
+  margin-top: -400px;
+}
+.image-cousin h2{
+  font-weight: 800;
+  font-size: 35px;
+}
+.image-cousin p {
+  font-weight: 200;
+  font-size: 18px;
 }
