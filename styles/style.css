@@ -188,7 +188,7 @@ main {
 /* change you habit cards section  */
 .cards-father {
   display: grid;
-  grid-template-columns:repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
 .card-img {
@@ -211,4 +211,27 @@ main {
 .p {
   font-weight: 300;
   text-align: center;
+}
+
+/* join now an image */
+.join-and-img-section {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  align-items: center;
+  margin: 100px 0px;
+}
+.run-div-text {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* text-align: left; */
+}
+.run-h2 {
+  font-size: 50px;
+}
+.run-img {
+  border-radius: 20px;
+  width: 400px;
 }

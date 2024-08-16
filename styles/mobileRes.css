@@ -50,4 +50,8 @@
     width: min-content;
     margin: 0px auto;
   }
+  .join-and-img-section {
+    flex-direction: column;
+    width: 100%;
+  }
 }
