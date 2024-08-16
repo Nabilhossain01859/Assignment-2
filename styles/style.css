@@ -236,6 +236,28 @@ main {
   width: 400px;
 }
 
+/* extra */
+.num-father {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.num-father h1 {
+  position: absolute;
+  text-align: center;
+  font-size: 100px;
+  z-index: 1;
+  color: rgb(172, 189, 204);
+}
+.num-father p {
+  text-align: center;
+  font-size: 30px;
+  padding: 39px 40px 40px 0px;
+  letter-spacing: 10px;
+  position: relative;
+  font-weight: bolder;
+  z-index: 2;
+}
 /* meet our team related styles */
 .container {
   display: grid;
@@ -275,36 +297,116 @@ main {
   padding: 0px 0px 0px 40px;
 }
 
+/* bgmi section related sytles */
+.bmi-father {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.bmi-chart-father {
+  width: 50%;
+  margin: 0px auto;
+  text-align: center;
+}
+.bmi-chart-father h2 {
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 900;
+}
+.bmi-chart {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+}
 
+.bmi-charted {
+}
+.bmi-chart h3 {
+  font-size: x-large;
+  padding-bottom: 10px;
+}
+.bmi-chart ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bmi-chart ul > li {
+  opacity: 0.6;
+
+  font-weight: bolder;
+}
+
+.input {
+  width: 90%;
+  height: 40px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  font-weight: bolder;
+}
+.gridarea1 {
+  grid-area: "gridarea1";
+}
+.gridarea2 {
+  grid-area: "gridarea2";
+}
+.gridarea3 {
+  grid-area: "gridarea3";
+}
+.gridarea4 {
+  grid-area: "gridarea4";
+}
+.gridarea5 {
+  grid-area: "gridarea5";
+}
+.inputs-father {
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "gridarea1 gridarea2"
+    "grdiarea3 gridarea4"
+    "gridarea5 gridarea5";
+}
+.selector {
+  width: 95%;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  opacity: 0.6;
+  border-radius: 20px;
+}
 /* footer related styles */
 
 .footer-section {
   padding: 50px;
   margin-top: 100px;
-  border-radius: 20px 20px 0px 0px ;
+  border-radius: 20px 20px 0px 0px;
   color: white;
   background-color: rgb(63, 63, 63, 0.9);
   display: flex;
   justify-content: space-evenly;
 }
-.div-1{
+.div-1 {
   width: 30%;
 }
 .div-1 p {
   opacity: 0.8;
 }
-.div-2 ul , .div-3 ul {
+.div-2 ul,
+.div-3 ul {
   display: flex;
   flex-direction: column;
-  gap: 20px; 
+  gap: 20px;
 }
-.div-2 h3, .div-3 h3 {
+.div-2 h3,
+.div-3 h3 {
   padding-bottom: 20px;
   font-size: 30px;
   font-weight: bolder;
 }
-.div-2 ul li, .div-3 ul li {
+.div-2 ul li,
+.div-3 ul li {
   list-style: none;
   font-weight: bold;
- 
 }
