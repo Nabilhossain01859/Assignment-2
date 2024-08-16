@@ -43,4 +43,11 @@
     margin-left: 200px;
     margin-top: -500px;
   }
+  .cards-father{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card-1{
+    width: min-content;
+    margin: 0px auto;
+  }
 }

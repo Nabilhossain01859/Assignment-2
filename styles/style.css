@@ -112,10 +112,10 @@ main {
   width: 224px;
   height: 60px;
 }
-.banner-section-image{
+.banner-section-image {
   position: relative;
 }
-.image{
+.image {
   /* position: absolute; */
   z-index: 1;
 }
@@ -129,7 +129,7 @@ main {
   border-radius: 42px;
   color: white;
   margin-left: -90px;
-  margin-top:-150px;
+  margin-top: -150px;
   position: absolute;
   z-index: 2;
 }
@@ -140,7 +140,6 @@ main {
 .image-one p {
   font-weight: 700;
   font-size: 18px;
-
 }
 
 #redSpot {
@@ -149,22 +148,67 @@ main {
   background-color: rgb(230, 83, 60);
   border-radius: 50%;
 }
-.image-cousin{
-    width: max-content;
-    border-radius: 10px;
-    background-color:black ;
-    color: white;
-    padding: 10px;
+.image-cousin {
+  width: max-content;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  padding: 10px;
   position: absolute;
   z-index: 2;
   margin-left: 240px;
   margin-top: -400px;
 }
-.image-cousin h2{
+.image-cousin h2 {
   font-weight: 800;
   font-size: 35px;
 }
 .image-cousin p {
   font-weight: 200;
   font-size: 18px;
+}
+
+/* change you habit section related styles */
+
+.habits-section-text {
+  margin: 0px auto;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.habits-section-text > h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.habits-section-text > p {
+  font-weight: 300;
+}
+
+/* change you habit cards section  */
+.cards-father {
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap: 20px;
+}
+.card-img {
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.card-1 {
+  padding: 20px;
+  /* background-color: rgb(158, 128, 128); */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.h2 {
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.p {
+  font-weight: 300;
+  text-align: center;
 }
