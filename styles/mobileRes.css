@@ -1,7 +1,7 @@
 /* Mobile responsive related css */
 @media screen and (max-width: 576px) {
   body {
-    width: max-content;
+    width: min-content;
     padding: 20px;
   }
   .navlinks > ul {
@@ -54,4 +54,9 @@
     flex-direction: column;
     width: 100%;
   }
+
+ .container{
+  grid-template-columns: repeat(1,1fr);
+  gap: 20px;
+ }
 }
